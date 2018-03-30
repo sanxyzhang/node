@@ -1,0 +1,32 @@
+{
+  "name": "mypackage",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "react"
+    ],
+    "env": {
+      "browser": true
+    }
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "chalk": "^2.3.2",
+    "cookie-parser": "~1.4.3",
+    "curl": "^0.1.4",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
